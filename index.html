@@ -43,3 +43,31 @@
 </body>
 </html>
 
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Foto com Texto</title>
+</head>
+<body>
+    <div class="container">
+        <img src="sua-imagem.jpg" alt="Descrição da Imagem" id="foto">
+        <div class="texto" id="texto">Aqui está o texto que aparece ao clicar na foto!</div>
+    </div>
+    
+    <script>
+        const foto = document.getElementById('foto');
+        const texto = document.getElementById('texto');
+
+        foto.addEventListener('click', () => {
+            texto.classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
