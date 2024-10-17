@@ -1,73 +1,27 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>𝐺𝑎𝑙𝑒𝑟𝑖𝑎 𝑑𝑒 𝐹𝑜𝑡𝑜𝑠</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>jogo da memoria</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-    <header>
-        <h1>𝐺𝑎𝑙𝑒𝑟𝑖𝑎 𝑑𝑒 𝐹𝑜𝑡𝑜𝑠</h1>
-    </header>
-    <main>
-        <section class="gallery">
-            <h2>𝑀𝑢𝑛𝑑𝑜 𝐷𝑎 𝐿𝑎𝑟𝑦</h2>
-            <div class="photo-grid">
-                <img src="01.jpeg" alt="Descrição da foto 1">
-                <img src="02.jpeg" alt="Descrição da foto 2">
-                <img src="03.jpeg" alt="Descrição da foto 3">
-                <img src="04.jpeg" alt="Descrição da foto 4">
-                <img src="05.jpeg" alt="Descrição da foto 5">
-                <img src="06.jpeg" alt="Descrição da foto 6">
-                <img src="07.jpeg" alt="Descrição da foto 7">
-                <img src="08.jpeg" alt="Descrição da foto 8">
-                <img src="09.jpeg" alt="Descrição da foto 8">
-                <img src="10.jpeg" alt="Descrição da foto 8">
-                <img src="11.jpeg" alt="Descrição da foto 8">
-                <img src="12.jpeg" alt="Descrição da foto 8">
-                <img src="13.jpeg" alt="Descrição da foto 8">
-                <img src="14.jpeg" alt="Descrição da foto 8">
-                <img src="15.jpeg" alt="Descrição da foto 8">
-                <img src="16.jpeg" alt="Descrição da foto 8">
-                <img src="17.jpeg" alt="Descrição da foto 8">
-                <img src="18.jpeg" alt="Descrição da foto 8">
-                <img src="19.jpeg" alt="Descrição da foto 8">
-                <img src="20.jpeg" alt="Descrição da foto 8">
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 𝑀𝑖𝑛ℎ𝑎𝑠 𝑀𝑒𝑚𝑜𝑟𝑖𝑎</p>
-    </footer>
-</body>
-</html>
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Foto com Texto</title>
-</head>
-<body>
-    <div class="container">
-        <img src="sua-imagem.jpg" alt="Descrição da Imagem" id="foto">
-        <div class="texto" id="texto">Aqui está o texto que aparece ao clicar na foto!</div>
-    </div>
     
-    <script>
-        const foto = document.getElementById('foto');
-        const texto = document.getElementById('texto');
+    <div  class="table">
+     <div class="container">
+     <h1>Jogo da Memória</h1>
+     <small class="score">Score= 0</small>
+      
+     <div class="cartas">
+        
+   </div>
+  </div>
+</div>
 
-        foto.addEventListener('click', () => {
-            texto.classList.toggle('show');
-        });
-    </script>
+  <script src="script.js"></script>
 </body>
+
 </html>
