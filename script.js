@@ -55,6 +55,7 @@ function isMatch(value) {
       scoreCount = scoreCount + 1;
       score.innerText = `score: ${scoreCount}`;
       selectedCards = [];
+      location
     } else {
       selectedCards = [];
       setTimeout(() => {
