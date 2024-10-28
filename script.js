@@ -65,3 +65,26 @@ function isMatch(value) {
     }
   }
 }
+
+
+
+
+function checkCompletion() {
+  // Lógica para verificar se o quebra-cabeça está completo
+  // Retorna true se completo, false caso contrário
+}
+
+function redirectToNextPage() {
+  window.location.href = 'index.html'; // ou qualquer outra página desejada
+}
+
+// Exemplo de uso
+if (checkCompletion()) {
+  redirectToNextPage();
+}
+
+
+
+if (checkCompletion()) {
+  setTimeout(redirectToNextPage, 2000); // Redireciona após 2 segundos
+}
